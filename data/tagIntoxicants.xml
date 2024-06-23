@@ -1,0 +1,24 @@
+<xml>
+  <tag>
+		<id>10110</id>
+		<desc category="Preference" name="Intoxicants"/>
+		<stats active="1" preference="1" decayRate="0.7" happyCost="-3000" consequence="1">
+			<tip>Desire for beer, wine, and other intoxicants.</tip>
+		</stats>
+		<image icon="UIPreferenceAlcohol"/>
+		<effects>
+			<base id="1111" amt="2"/>
+			<strong id="10110" amt="6"/>
+		</effects>
+		<impactZero>
+			<need id="1152" amt="-2"/>
+			<potential id="12541" amt="1" prob="0.1"/>
+			<potential id="16021" amt="-1" prob="0.1"/>
+		</impactZero>
+		<impactFull>
+			<need id="1152" amt="2"/>
+			<potential id="12541" amt="-1" prob="0.1"/>
+			<potential id="16021" amt="1" prob="0.1"/>
+		</impactFull>
+	</tag>
+</xml>
